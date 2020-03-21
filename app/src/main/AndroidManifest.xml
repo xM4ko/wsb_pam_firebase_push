@@ -24,6 +24,11 @@
 
         <activity android:name=".DetailActivity" />
 
+        <service android:name=".MyFirebaseMessagingService"
+            android:exported="false">
+
+        </service>
+
 <!-- TODO: Add your service here       -->
 
     </application>
